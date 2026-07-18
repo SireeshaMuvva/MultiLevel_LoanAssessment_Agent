@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the minimum CIBIL score required for a home loan?",
+    "ground_truth": "The minimum CIBIL score required for a home loan is 700 as per RBI guidelines."
+  },
+  {
+    "question": "What is FOIR and what is the RBI recommended limit for salaried employees?",
+    "ground_truth": "FOIR stands for Fixed Obligation to Income Ratio. It is calculated as total monthly EMI obligations divided by gross monthly income multiplied by 100. RBI recommends FOIR should not exceed 50% for salaried individuals."
+  },
+  {
+    "question": "What is the maximum loan to value ratio for a home loan above 75 lakhs?",
+    "ground_truth": "For home loans above Rs. 75 lakh, the maximum LTV ratio is 75% as per RBI guidelines."
+  },
+  {
+    "question": "Can a bank levy prepayment charges on a floating rate home loan?",
+    "ground_truth": "No. RBI guidelines state that lenders shall not levy foreclosure charges or pre-payment penalties on home loans sanctioned on floating interest rate basis to individual borrowers."
+  },
+  {
+    "question": "What documents are required for a home loan application?",
+    "ground_truth": "Documents required include identity proof such as PAN Card and Aadhaar Card, address proof, income proof such as salary slips or ITR, bank statements for the last 6 to 12 months, and property documents including sale deed, encumbrance certificate, and approved building plan."
+  },
+  {
+    "question": "What should a bank do when rejecting a loan application?",
+    "ground_truth": "When rejecting a loan application, lenders must communicate the rejection in writing within a reasonable timeframe, provide the primary reason for rejection where feasible, and must not discriminate based on factors unrelated to creditworthiness."
+  },
+  {
+    "question": "What credit score is considered excellent for loan eligibility in India?",
+    "ground_truth": "A CIBIL score of 750 and above is considered Excellent, indicating very low risk and making the borrower eligible for best available interest rates."
+  },
+  {
+    "question": "What factors affect a customer's CIBIL credit score?",
+    "ground_truth": "CIBIL scores are influenced by payment history with 35% weightage, credit utilization with 30% weightage, length of credit history with 15% weightage, credit mix with 10% weightage, and new credit inquiries with 10% weightage."
+  },
+  {
+    "question": "What is the FOIR limit for self-employed borrowers as per RBI?",
+    "ground_truth": "For self-employed individuals, the FOIR should not exceed 55 to 60% of gross monthly income given variable income patterns. Lenders may use higher FOIR limits up to 65% for high-income self-employed applicants at their discretion."
+  },
+  {
+    "question": "What counter-offer options should a bank provide when rejecting a loan?",
+    "ground_truth": "As per RBI Fair Practices Code, where an applicant does not qualify for the requested loan, lenders are encouraged to provide alternatives such as a reduced loan amount within acceptable FOIR limits, a longer tenure to reduce EMI burden, requirement of a co-applicant or guarantor, or a secured loan option in place of an unsecured one."
+  },
+  {
+    "question": "What is the minimum age requirement for applying for a personal loan?",
+    "ground_truth": "The minimum age for a personal loan is 23 years and the maximum age at loan maturity is 58 to 60 years as per RBI fair practices guidelines."
+  },
+  {
+    "question": "How long does a bank have to respond to a retail loan application?",
+    "ground_truth": "Lenders must respond to loan applications including approval, rejection, or query within a reasonable timeframe generally not exceeding 15 working days for retail loans."
+  },
+  {
+    "question": "What is the maximum LTV ratio for home loans up to 30 lakhs?",
+    "ground_truth": "For home loans up to Rs. 30 lakh, the maximum LTV ratio is 90% as per RBI guidelines."
+  },
+  {
+    "question": "What is the minimum business vintage required for a business loan?",
+    "ground_truth": "A minimum business vintage of 2 to 3 years of continuous operation is required for business loan eligibility as per RBI fair practices guidelines."
+  },
+  {
+    "question": "When is a loan account classified as default?",
+    "ground_truth": "A loan account is classified as default when payment is overdue by more than 90 days as per RBI credit information guidelines."
+  },
+  {
+    "question": "What is the minimum CIBIL score recommended for a personal loan?",
+    "ground_truth": "A minimum CIBIL score of 680 is recommended for personal loans, though lenders may sanction below this threshold with risk-based pricing."
+  },
+  {
+    "question": "Are banks allowed to use risk-based interest rate pricing?",
+    "ground_truth": "Yes. Lenders are permitted to use risk-based pricing wherein interest rates may vary based on the applicant's credit score band, provided such variation is transparently disclosed in the loan agreement."
+  },
+  {
+    "question": "What interest rate calculation method must Indian banks use?",
+    "ground_truth": "The reducing balance method of interest rate calculation is mandatory for all loans as per RBI guidelines on interest rate transparency."
+  },
+  {
+    "question": "What are the prohibited practices for lenders under RBI Fair Practices Code?",
+    "ground_truth": "Lenders must not use coercive methods for loan recovery, discriminate based on gender religion caste or region, levy hidden charges not disclosed at sanction, or mis-sell loan products bundled with insurance or other financial products without explicit consent."
+  },
+  {
+    "question": "What is the right of a borrower regarding their credit report?",
+    "ground_truth": "Borrowers have the right to obtain one free credit report annually from each Credit Information Company. They also have the right to raise disputes regarding inaccurate information, and CICs must resolve such disputes within 30 days."
+  },
+  {
+    "question": "What is the minimum CIBIL score for a car loan?",
+    "ground_truth": "A minimum CIBIL score of 700 is recommended for new vehicle or car loans as per RBI fair practices guidelines."
+  },
+  {
+    "question": "What heightened caution should lenders exercise in credit assessment?",
+    "ground_truth": "Lenders must exercise heightened caution when an applicant has more than one default in the last 7 years, more than three late payments in the last 12 months, or credit utilization exceeding 75% across all credit lines."
+  },
+  {
+    "question": "What is the maximum tenure allowed for a home loan?",
+    "ground_truth": "The maximum tenure for a home loan is 30 years as per standard bank product guidelines and RBI lending norms."
+  },
+  {
+    "question": "What is the maximum LTV for home loans between 30 and 75 lakhs?",
+    "ground_truth": "For home loans above Rs. 30 lakh and up to Rs. 75 lakh, the maximum LTV ratio is 80% as per RBI guidelines."
+  },
+  {
+    "question": "What consent is required before a lender can pull a credit report?",
+    "ground_truth": "Lenders must obtain explicit consent from applicants before pulling their credit report. Credit information must not be shared with third parties without borrower consent except as required by law."
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "credit_scores": [
+    {
+      "pan_number": "ABCDE1234F",
+      "customer_name": "Rajesh Kumar",
+      "cibil_score": 742,
+      "credit_rating": "Good",
+      "total_credit_limit": 500000,
+      "credit_utilization_percent": 32,
+      "active_loans": 1,
+      "loan_repayment_history": "Excellent",
+      "defaults_last_7_years": 0,
+      "late_payments_last_12_months": 0,
+      "credit_age_years": 10,
+      "last_updated": "2025-06-01"
+    },
+    {
+      "pan_number": "PQRST5678G",
+      "customer_name": "Priya Sharma",
+      "cibil_score": 698,
+      "credit_rating": "Fair",
+      "total_credit_limit": 200000,
+      "credit_utilization_percent": 55,
+      "active_loans": 1,
+      "loan_repayment_history": "Good",
+      "defaults_last_7_years": 0,
+      "late_payments_last_12_months": 2,
+      "credit_age_years": 5,
+      "last_updated": "2025-06-01"
+    },
+    {
+      "pan_number": "LMNOP9012H",
+      "customer_name": "Suresh Reddy",
+      "cibil_score": 615,
+      "credit_rating": "Average",
+      "total_credit_limit": 800000,
+      "credit_utilization_percent": 78,
+      "active_loans": 3,
+      "loan_repayment_history": "Average",
+      "defaults_last_7_years": 1,
+      "late_payments_last_12_months": 4,
+      "credit_age_years": 15,
+      "last_updated": "2025-06-01"
+    },
+    {
+      "pan_number": "FGHIJ3456K",
+      "customer_name": "Anita Desai",
+      "cibil_score": 720,
+      "credit_rating": "Good",
+      "total_credit_limit": 150000,
+      "credit_utilization_percent": 20,
+      "active_loans": 0,
+      "loan_repayment_history": "Excellent",
+      "defaults_last_7_years": 0,
+      "late_payments_last_12_months": 0,
+      "credit_age_years": 3,
+      "last_updated": "2025-06-01"
+    },
+    {
+      "pan_number": "UVWXY7890L",
+      "customer_name": "Mohammed Irfan",
+      "cibil_score": 580,
+      "credit_rating": "Poor",
+      "total_credit_limit": 300000,
+      "credit_utilization_percent": 85,
+      "active_loans": 2,
+      "loan_repayment_history": "Poor",
+      "defaults_last_7_years": 2,
+      "late_payments_last_12_months": 6,
+      "credit_age_years": 8,
+      "last_updated": "2025-06-01"
+    }
+  ],
+  "cibil_score_bands": {
+    "Excellent": {"min": 750, "max": 900, "description": "Very low risk, best interest rates"},
+    "Good": {"min": 700, "max": 749, "description": "Low risk, competitive interest rates"},
+    "Fair": {"min": 650, "max": 699, "description": "Moderate risk, standard interest rates"},
+    "Average": {"min": 600, "max": 649, "description": "Higher risk, higher interest rates"},
+    "Poor": {"min": 300, "max": 599, "description": "High risk, loan likely rejected"}
+  }
+}

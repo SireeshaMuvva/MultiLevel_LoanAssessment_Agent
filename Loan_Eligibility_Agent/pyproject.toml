@@ -1,0 +1,28 @@
+[project]
+name = "loan-eligibility-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb>=1.0.9",
+    "datasets==3.6.0",
+    "faiss-cpu==1.10.0",
+    "fastmcp==2.3.4",
+    "langchain==0.3.25",
+    "langchain-chroma==0.2.4",
+    "langchain-community==0.3.24",
+    "langchain-openai==0.3.16",
+    "langchain-text-splitters==0.3.8",
+    "langgraph==0.4.8",
+    "langsmith==0.3.45",
+    "mcp==1.9.2",
+    "numpy==2.2.6",
+    "pandas==2.2.3",
+    "pydantic==2.11.5",
+    "pypdf==5.5.0",
+    "python-dotenv==1.1.0",
+    "ragas==0.2.15",
+    "sentence-transformers==4.1.0",
+    "streamlit==1.45.1",
+]

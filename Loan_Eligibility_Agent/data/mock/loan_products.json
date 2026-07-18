@@ -1,0 +1,136 @@
+{
+  "loan_products": [
+    {
+      "product_id": "HL001",
+      "loan_type": "Home Loan",
+      "bank_name": "State Bank of India",
+      "min_amount": 500000,
+      "max_amount": 75000000,
+      "min_tenure_years": 5,
+      "max_tenure_years": 30,
+      "interest_rate_percent": 8.5,
+      "processing_fee_percent": 0.35,
+      "eligibility": {
+        "min_cibil_score": 700,
+        "min_monthly_income": 25000,
+        "max_foir_percent": 50,
+        "min_age": 21,
+        "max_age": 70,
+        "employment_types": ["Salaried", "Self-Employed"]
+      },
+      "documents_required": [
+        "PAN Card",
+        "Aadhaar Card",
+        "Salary Slips (3 months)",
+        "Bank Statements (6 months)",
+        "Property Documents"
+      ]
+    },
+    {
+      "product_id": "HL002",
+      "loan_type": "Home Loan",
+      "bank_name": "HDFC Bank",
+      "min_amount": 300000,
+      "max_amount": 100000000,
+      "min_tenure_years": 5,
+      "max_tenure_years": 30,
+      "interest_rate_percent": 8.75,
+      "processing_fee_percent": 0.50,
+      "eligibility": {
+        "min_cibil_score": 720,
+        "min_monthly_income": 30000,
+        "max_foir_percent": 55,
+        "min_age": 21,
+        "max_age": 65,
+        "employment_types": ["Salaried", "Self-Employed"]
+      },
+      "documents_required": [
+        "PAN Card",
+        "Aadhaar Card",
+        "Salary Slips (6 months)",
+        "Bank Statements (12 months)",
+        "Property Documents",
+        "ITR (2 years)"
+      ]
+    },
+    {
+      "product_id": "PL001",
+      "loan_type": "Personal Loan",
+      "bank_name": "ICICI Bank",
+      "min_amount": 50000,
+      "max_amount": 5000000,
+      "min_tenure_years": 1,
+      "max_tenure_years": 5,
+      "interest_rate_percent": 10.85,
+      "processing_fee_percent": 2.25,
+      "eligibility": {
+        "min_cibil_score": 680,
+        "min_monthly_income": 25000,
+        "max_foir_percent": 60,
+        "min_age": 23,
+        "max_age": 58,
+        "employment_types": ["Salaried"]
+      },
+      "documents_required": [
+        "PAN Card",
+        "Aadhaar Card",
+        "Salary Slips (3 months)",
+        "Bank Statements (3 months)"
+      ]
+    },
+    {
+      "product_id": "BL001",
+      "loan_type": "Business Loan",
+      "bank_name": "Axis Bank",
+      "min_amount": 200000,
+      "max_amount": 50000000,
+      "min_tenure_years": 1,
+      "max_tenure_years": 7,
+      "interest_rate_percent": 14.25,
+      "processing_fee_percent": 1.50,
+      "eligibility": {
+        "min_cibil_score": 650,
+        "min_monthly_income": 50000,
+        "max_foir_percent": 65,
+        "min_age": 25,
+        "max_age": 65,
+        "employment_types": ["Self-Employed"]
+      },
+      "documents_required": [
+        "PAN Card",
+        "Aadhaar Card",
+        "Business Registration Certificate",
+        "Bank Statements (12 months)",
+        "ITR (3 years)",
+        "GST Returns"
+      ]
+    },
+    {
+      "product_id": "CL001",
+      "loan_type": "Car Loan",
+      "bank_name": "Kotak Mahindra Bank",
+      "min_amount": 100000,
+      "max_amount": 10000000,
+      "min_tenure_years": 1,
+      "max_tenure_years": 7,
+      "interest_rate_percent": 8.99,
+      "processing_fee_percent": 1.00,
+      "eligibility": {
+        "min_cibil_score": 700,
+        "min_monthly_income": 20000,
+        "max_foir_percent": 50,
+        "min_age": 21,
+        "max_age": 60,
+        "employment_types": ["Salaried", "Self-Employed"]
+      },
+      "documents_required": [
+        "PAN Card",
+        "Aadhaar Card",
+        "Salary Slips (3 months)",
+        "Bank Statements (3 months)",
+        "Vehicle Quotation"
+      ]
+    }
+  ],
+  "foir_explanation": "FOIR (Fixed Obligation to Income Ratio) = (Total EMIs / Monthly Income) x 100. RBI recommends keeping FOIR below 50% for salaried and 65% for self-employed."
+}
